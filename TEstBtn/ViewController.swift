@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let btn = DsyItemView(frame: CGRect(x: 30, y: 30, width: 300, height: 300))
+        btn.callback = { tag in
+            print(tag)
+        }
 //        btn.addTarget(self, action: #selector(click), for: .touchUpInside)
 //        btn.backgroundColor = .blue
 //        btn.setImage(UIImage(named: "help"), for: .normal)

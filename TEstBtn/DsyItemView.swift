@@ -26,6 +26,8 @@ class DsyItemView: UIView {
     let row = 3
     let colunm = 6
     let totalBtnCounts = 55
+    
+    var callback: ((Int) -> ())? = nil
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -79,6 +81,7 @@ class DsyItemView: UIView {
     }
     
     @objc func clickBtn(_ sender: UIButton) {
-        print(sender.tag)
+//        print(sender.tag)
+        self.callback?(sender.tag)
     }
 }
