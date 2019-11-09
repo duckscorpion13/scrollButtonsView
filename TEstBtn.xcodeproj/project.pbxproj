@@ -13,6 +13,7 @@
 		F9FC4F552375CB5600123FF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FC4F532375CB5600123FF3 /* Main.storyboard */; };
 		F9FC4F572375CB5600123FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FC4F562375CB5600123FF3 /* Assets.xcassets */; };
 		F9FC4F5A2375CB5600123FF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FC4F582375CB5600123FF3 /* LaunchScreen.storyboard */; };
+		F9FC4F622376591100123FF3 /* DsyItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC4F612376591100123FF3 /* DsyItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F9FC4F562375CB5600123FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9FC4F592375CB5600123FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9FC4F5B2375CB5600123FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FC4F612376591100123FF3 /* DsyItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DsyItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F9FC4F4D2375CB5600123FF3 /* AppDelegate.swift */,
 				F9FC4F4F2375CB5600123FF3 /* SceneDelegate.swift */,
 				F9FC4F512375CB5600123FF3 /* ViewController.swift */,
+				F9FC4F612376591100123FF3 /* DsyItemView.swift */,
 				F9FC4F532375CB5600123FF3 /* Main.storyboard */,
 				F9FC4F562375CB5600123FF3 /* Assets.xcassets */,
 				F9FC4F582375CB5600123FF3 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				F9FC4F522375CB5600123FF3 /* ViewController.swift in Sources */,
 				F9FC4F4E2375CB5600123FF3 /* AppDelegate.swift in Sources */,
+				F9FC4F622376591100123FF3 /* DsyItemView.swift in Sources */,
 				F9FC4F502375CB5600123FF3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,15 +288,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EBB2GG4P6H;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = QP9VZR24AL;
 				INFOPLIST_FILE = TEstBtn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsy.dev.TEstBtn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrollpoeMarvin.dev.TEstBtn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard-DEV";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,15 +308,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EBB2GG4P6H;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = QP9VZR24AL;
 				INFOPLIST_FILE = TEstBtn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsy.dev.TEstBtn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrollpoeMarvin.dev.TEstBtn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard-DEV";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
