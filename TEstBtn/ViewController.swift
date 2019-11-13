@@ -13,7 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let btn = DsyItemView(frame: CGRect(x: 30, y: 30, width: 300, height: 300))
+        var imgs = [UIImage?]()
+		for _ in 0...10 {
+			imgs.append(UIImage(named: "help"))
+		}
+		let btn = DsyItemsView(frame: CGRect(x: 30, y: 30, width: 300, height: 200))
+		btn.images = imgs
         btn.callback = { tag in
             print(tag)
         }
